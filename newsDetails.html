@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻详情页</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/common/common.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="icomoon/style.css">
+	
+	<link rel="stylesheet" href="css/newsDetails.css">
+	<script src="js/newsDetails.js"></script>
+	<script src="js/html5shiv.js"></script>
+</head>
+<body>
+	<header>
+		<section class="headerleft">
+			<a href="index.html"><img src="images/logo.png" alt=""></a>
+		</section>
+		<section class="headerright">
+			<section class="righttop">
+				<ul>
+					<li><a href="">在线客服</a></li>
+					<li><a href="">订单跟踪</a></li>
+					<li>
+						<a href="login.html">登录</a>
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</li>
+				</ul>
+			</section>
+			<section class="rightbottom">
+				<section class="bottomleft">
+					<ul>
+						<li><a href="man.html">男子</a>
+							<ul>
+								<li>
+									<dl>
+										<dt><a href="">最新活动</a></dt>
+										<dd><a href="">新品上市</a></dd>
+										<dd><a href="">创作你的专属Adilette</a></dd>
+										<dd><a href=""> 跑步|UltraBOOST X</a></dd>
+										<dd><a href="">Originals|ICONS</a></dd>
+										<dd><a href="">adidas neo|生来好动</a></dd>
+										<dd><a href="">训练|由我创造</a></dd>
+										<dd><a href="">miadidas 个性化定制</a></dd>
+										<dd><a href="">折扣专区</a></dd>
+										<dd><a href="">全部男子产品</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">鞋类</a></dt>
+										<dd><a href="">Originals</a></dd>
+										<dd><a href="">adidas neo</a></dd>
+										<dd><a href="">足球</a></dd>
+										<dd><a href="">篮球</a></dd>
+										<dd><a href="">训练</a></dd>
+										<dd><a href="">跑步</a></dd>
+										<dd><a href="">户外</a></dd>
+										<dd><a href="">网球</a></dd>
+										<dd><a href="">全部男子鞋</a></dd>
+									</dl>
+								</li>
+								<li>
+								    <dl>
+										<dt><a href="">服饰类</a></dt>
+										<dd><a href="">紧身裤</a></dd>
+										<dd><a href="">短袖上衣</a></dd>
+										<dd><a href="">长袖上衣</a></dd>
+										<dd><a href="">茄克/外套</a></dd>
+										<dd><a href="">下装</a></dd>
+										<dd><a href="">棉服/羽绒服</a></dd>
+										<dd><a href="">全部男子服饰</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">附配件类</a></dt>
+										<dd><a href="">袜子</a></dd>
+										<dd><a href="">帽子/手套/围巾</a></dd>
+										<dd><a href="">背包/拎包/肩包/电脑包</a></dd>
+										<dd><a href="">茄克/外套</a></dd>
+										<dd><a href="">手表</a></dd>
+										<dd><a href="">球类</a></dd>
+										<dd><a href="">全部男子配件</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">运动分类</a></dt>
+										<dd><a href="">足球</a></dd>
+										<dd><a href="">篮球</a></dd>
+										<dd><a href="">训练</a></dd>
+										<dd><a href="">跑步</a></dd>
+										<dd><a href="">户外</a></dd>
+										<dd><a href="">网球</a></dd>
+										<dd><a href="">游泳</a></dd>
+										<dd><a href="">高尔夫</a></dd>
+										<dd><a href="">全部男子运动</a></dd>
+									</dl>
+								</li>
+							</ul>
+						</li>
+						<li><a href="">女子</a>
+							<ul>
+								<li>
+									<dl>
+										<dt><a href="">最新活动</a></dt>
+										<dd><a href="">新品上市</a></dd>
+										<dd><a href="">创作你的专属Adilette</a></dd>
+										<dd><a href=""> 跑步|UltraBOOST X</a></dd>
+										<dd><a href="">Originals|ICONS</a></dd>
+										<dd><a href="">adidas neo|领取热巴福利</a></dd>
+										<dd><a href="">训练|由我创造</a></dd>
+										<dd><a href="">miadidas 个性化定制</a></dd>
+										<dd><a href="">折扣专区</a></dd>
+										<dd><a href="">全部女子产品</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">鞋类</a></dt>
+										<dd><a href="">Originals</a></dd>
+										<dd><a href="">adidas neo</a></dd>
+										<dd><a href="">训练</a></dd>
+										<dd><a href="">跑步</a></dd>
+										<dd><a href="">户外</a></dd>
+										<dd><a href="">网球</a></dd>
+										<dd><a href="">全部女子鞋</a></dd>
+									</dl>
+								</li>
+								<li>
+								    <dl>
+										<dt><a href="">服饰类</a></dt>
+										<dd><a href="">紧身裤</a></dd>
+										<dd><a href="">运动胸衣</a></dd>
+										<dd><a href="">短袖上衣</a></dd>
+										<dd><a href="">长袖上衣</a></dd>
+										<dd><a href="">茄克/外套</a></dd>
+										<dd><a href="">短裙/连衣裙</a></dd>
+										<dd><a href="">下装</a></dd>
+										<dd><a href="">棉服/羽绒服</a></dd>
+										<dd><a href="">泳衣/泳裤</a></dd>
+										<dd><a href="">全部女子服饰</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">附配件类</a></dt>
+										<dd><a href="">袜子</a></dd>
+										<dd><a href="">帽子/手套/围巾</a></dd>
+										<dd><a href="">背包/拎包/肩包/电脑包</a></dd>
+										<dd><a href="">茄克/外套</a></dd>
+										<dd><a href="">手表</a></dd>
+										<dd><a href="">全部女子配件</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">运动分类</a></dt>
+										<dd><a href="">足球</a></dd>
+										<dd><a href="">训练</a></dd>
+										<dd><a href="">跑步</a></dd>
+										<dd><a href="">户外</a></dd>
+										<dd><a href="">网球</a></dd>
+										<dd><a href="">游泳</a></dd>
+										<dd><a href="">高尔夫</a></dd>
+										<dd><a href="">全部女子运动</a></dd>
+									</dl>
+								</li>
+							</ul>
+						</li>
+						<li><a href="babyProducts.html">童装</a>
+							<ul>
+								<li>
+									<dl>
+										<dt><a href="">最新活动</a></dt>
+										<dd><a href="">新品上市</a></dd>
+										<dd><a href="">运动表现</a></dd>
+										<dd><a href="">Originals</a></dd>
+										<dd><a href="">全部婴童产品</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">大童（8-12岁）</a></dt>
+										<dd><a href="">男大童：鞋类</a></dd>
+										<dd><a href="">女大童：鞋类</a></dd>
+										<dd><a href="">男大童：服装</a></dd>
+										<dd><a href="">女大童：服装</a></dd>
+										<dd><a href="">全部大童（8-12岁）产品</a></dd>
+									</dl>
+								</li>
+								<li>
+								    <dl>
+										<dt><a href="">小童（4-8岁）</a></dt>
+										<dd><a href="">男小童：鞋类</a></dd>
+										<dd><a href="">女小童：鞋类</a></dd>
+										<dd><a href="">男小童：服装</a></dd>
+										<dd><a href="">女小童：服装</a></dd>
+										<dd><a href="">箱包附配件</a></dd>
+										<dd><a href="">全部小童（4-8岁）产品</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="">婴幼儿</a></dt>
+										<dd><a href="">男婴童：鞋类</a></dd>
+										<dd><a href="">女婴童：鞋类</a></dd>
+										<dd><a href="">男婴童：服装</a></dd>
+										<dd><a href="">女婴童：服装</a></dd>
+										<dd><a href="">箱包附配件</a></dd>
+										<dd><a href="">全部小童配件</a></dd>
+									</dl>
+								</li>
+							</ul>
+						</li>
+						<span class="headDivid">|</span>
+						<li><a href="football.html">运动</a>
+						<ul>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/adidas.jpg" alt="">跑步</a></dt>
+									<div><a href=""><img src="images/sports1.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">跑步鞋</a></dd>
+									<dd><a href="">跑步服饰</a></dd>
+									<dd><a href="">UltraBOOST</a></dd>
+									<dd><a href="">PureBOOST</a></dd>
+									<dd><a href="">Alpha Bounce</a></dd>
+									<dd><a href="">全部跑步产品</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/adidas.jpg" alt="">训练</a></dt>
+									<div><a href=""><img src="images/sports2.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">训练鞋</a></dd>
+									<dd><a href="">训练鞋服装</a></dd>
+									<dd><a href="">运动装备</a></dd>
+									<dd><a href="">adidas X Wanderlust</a></dd>
+									<dd><a href="">运动胸衣/紧身裤</a></dd>
+									<dd><a href="">全部训练产品</a></dd>
+								</dl>
+							</li>
+							<li>
+							    <dl>
+									<dt><a href="football.html"><img src="images/adidas.jpg" alt="">足球</a></dt>
+									<div><a href="football.html"><img src="images/sports3.jpg" alt=""></a></div>
+									<dd><a href="football.html"></a></dd>
+									<dd><a href="football.html">足球鞋</a></dd>
+									<dd><a href="football.html">足球服装</a></dd>
+									<dd><a href="football.html">运动装备</a></dd>
+									<dd><a href="football.html">全部足球产品</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/adidas.jpg" alt="">篮球</a></dt>
+									<div><a href=""><img src="images/sports4.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">篮球鞋</a></dd>
+									<dd><a href="">篮球服装</a></dd>
+									<dd><a href="">James Harden</a></dd>
+									<dd><a href="">全部篮球产品</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/adidas.jpg" alt="">户外</a></dt>
+									<div><a href=""><img src="images/sports5.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">户外鞋</a></dd>
+									<dd><a href="">户外服饰</a></dd>
+									<dd><a href="">运动装备</a></dd>
+									<dd><a href="">户外多功能运动</a></dd>
+									<dd><a href="">户外徒步系列</a></dd>
+									<dd><a href="">全部户外产品</a></dd>
+								</dl>
+							</li>
+						</ul>
+						</li>
+						<li><a href="Origunals.html">品牌</a>
+						<ul>
+							<li>
+								<dl>
+									<dt><a href="Origunals/Origunals.html"><img src="images/pinpai1.png" alt=""></a></dt>
+									<div><a href="Origunals/Origunals.html"><img src="images/pinpai11.jpg" alt=""></a></div>
+									<dd><a href="Origunals/Origunals.html"></a></dd>
+									<dd><a href="Origunals/Origunals.html">鞋类</a></dd>
+									<dd><a href="Origunals/Origunals.html">服装</a></dd>
+									<dd><a href="Origunals/Origunals.html">附配件</a></dd>
+									<dd><a href="Origunals/Origunals.html">CRAZY ADV</a></dd>
+									<dd><a href="Origunals/Origunals.html">SWIFT</a></dd>
+									<dd><a href="Origunals/Origunals.html">全部adidas Originals系列</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/pinpai2.png" alt="">训练</a></dt>
+									<div><a href=""><img src="images/pinpai22.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">男子服饰</a></dd>
+									<dd><a href="">女子服饰</a></dd>
+									<dd><a href="">新品上市</a></dd>
+									<dd><a href="">Z.N.E</a></dd>
+									<dd><a href="">武极</a></dd>
+									<dd><a href="">全部adidas athletics系列</a></dd>
+								</dl>
+							</li>
+							<li>
+							    <dl>
+									<dt><a href=""><img src="images/pinpai3.png" alt="">足球</a></dt>
+									<div><a href=""><img src="images/pinpai33.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">鞋类</a></dd>
+									<dd><a href="">服装</a></dd>
+									<dd><a href="">附配件</a></dd>
+									<dd><a href="">全部adidas neo系列</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/pinpai4.png" alt="">篮球</a></dt>
+									<div><a href=""><img src="images/pinpai44.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">鞋类</a></dd>
+									<dd><a href="">服装</a></dd>
+									<dd><a href="">PureBOOST</a></dd>
+									<dd><a href="">全部adidas neo系列</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href="">精选系列</a></dt>
+									<dd><a href="">CRAZY ADV</a></dd>
+									<dd><a href="">EQT</a></dd>
+									<dd><a href="">SWIFT</a></dd>
+									<dd><a href="">STAN PHARRELL</a></dd>
+								</dl>
+							</li>
+						</ul>
+						</li>
+						<span class="headDivid">|</span>
+						<li><a href="newsDetails.html">新闻详情页</a>
+						<ul>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/dingzhi1.jpg" alt=""></a></dt>
+									<div><a href=""><img src="images/dingzhi11.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">Swift Runner</a></dd>
+									<dd><a href="">Stan Smith</a></dd>
+									<dd><a href="">EQT</a></dd>
+									<dd><a href="">Superstar</a></dd>
+									<dd><a href="">Spezial</a></dd>
+									<dd><a href="">全部originals定制产品</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href=""><img src="images/dingzhi2.jpg" alt="">训练</a></dt>
+									<div><a href=""><img src="images/dingzhi22.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">Pure Boost</a></dd>
+									<dd><a href="">Adizero Adios</a></dd>
+									<dd><a href="">Energy Cloud</a></dd>
+									<dd><a href="">Z.N.E</a></dd>
+									<dd><a href="">Supernova</a></dd>
+									<dd><a href="">全部跑步定制产品</a></dd>
+								</dl>
+							</li>
+							<li>
+							    <dl>
+									<dt><a href=""><img src="images/dingzhi3.jpg" alt="">足球</a></dt>
+									<div><a href=""><img src="images/dingzhi33.jpg" alt=""></a></div>
+									<dd><a href=""></a></dd>
+									<dd><a href="">Dame 3</a></dd>
+									<dd><a href="">D Rose 7</a></dd>
+									<dd><a href="">Crazy Explosive</a></dd>
+									<dd><a href="">全部篮球定制产品</a></dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><a href="">其他</a></dt>
+									<dd><a href=""><img src="images/other.gif" alt=""></dd>
+									<dd><a href=""></a></dd>
+									<dd><a href="">Explore miadidas</a></dd>
+									<dd><a href="">Flip Flops</a></dd>
+									<dd><a href="">所有男子定制产品</a></dd>
+									<dd><a href="">所有女子定制产品</a></dd>
+									<dd><a href="">男子个性印制产品</a></dd>
+									<dd><a href="">女子个性印制产品</a></dd>
+								</dl>
+							</li>
+						</ul>
+						</li>
+				</ul>
+				</section>
+				<section class="bottommiddle">
+					<pre>
+	  根据国家最新规定,如您需要开具公司抬头的发票, 
+	  请务必备注税号信息,未提供公司税号的订单将无法开具发票.
+					</pre>
+				</section>
+				<section class="bottomright">
+					<section class="searchinput">
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<input type="text" id="header_search" value="搜索">
+						<a href="shopping.html"><img src="images/bag.png" alt="" id="shopping_icon"></a>
+					</section>
+				</section>
+			</section>
+		</section>
+	</header>
+	<nav>
+		<span><a href="javascript:;">&lt;</a></span>
+		<span><a href="javascript:;">&gt;</a></span>
+		<section id="box">
+			<div class="banner" style="left:0;">
+				<img src="images/newsDetails/1.jpg" alt="b1">
+			</div>
+			<div class="banner" style="left:110%;">
+				<img src="images/newsDetails/2.jpg" alt="b2">
+				<img src="images/newsDetails/02.png" alt="b02" class="s_banner">
+			</div>
+			<div class="banner">
+				<img src="images/newsDetails/3.jpg" alt="b3">
+				<img src="images/newsDetails/03.png" alt="b03" class="s_banner">
+			</div>
+			<div class="banner">
+				<img src="images/newsDetails/4.jpg" alt="b4">
+				<img src="images/newsDetails/04.png" alt="b04" class="s_banner">
+			</div>
+			<div class="banner">
+				<img src="images/newsDetails/5.jpg" alt="b5">
+				<img src="images/newsDetails/05.png" alt="b05" class="s_banner">
+			</div>
+			<div class="banner">
+				<img src="images/newsDetails/6.jpg" alt="b6">
+				<img src="images/newsDetails/06.png" alt="b06" class="s_banner">
+			</div>
+			<div class="banner" style="left:-110%;">
+				<img src="images/newsDetails/7.jpg" alt="b7">
+				<img src="images/newsDetails/07.png" alt="b07" class="s_banner">
+			</div>
+		</section>
+	</nav>
+	<section id="product">
+		<div id="product_title">
+			<img src="images/newsDetails/freedom-title-pc-1.jpg" alt="freedom-title-pc-1.jpg">
+			<img src="images/newsDetails/freedom-title-pc-2.jpg" alt="freedom-title-pc-2.jpg">
+		</div>
+		<div id="product_main">
+			<div id="product_nav">
+				<ul>
+					<li class="active">ALL</li>
+					<li>ORIGINALS</li>
+					<li>RUNNING</li>
+					<li>BASKETBALL</li>
+				</ul>
+			</div>
+			<div id="product_list">
+				<div class="product_list_item active">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-01.png" alt="pc-tab-content-image-1-01.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-02.png" alt="pc-tab-content-image-1-02.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-03.png" alt="pc-tab-content-image-1-03.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-04.png" alt="pc-tab-content-image-1-04.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-05.png" alt="pc-tab-content-image-1-05.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-06.png" alt="pc-tab-content-image-1-06.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-07.png" alt="pc-tab-content-image-1-07.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-08.png" alt="pc-tab-content-image-1-08.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-09.png" alt="pc-tab-content-image-1-09.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-10.png" alt="pc-tab-content-image-1-10.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-11.png" alt="pc-tab-content-image-1-11.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-12.png" alt="pc-tab-content-image-1-12.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-13.png" alt="pc-tab-content-image-1-13.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-14.png" alt="pc-tab-content-image-1-14.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-15.png" alt="pc-tab-content-image-1-15.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-16.png" alt="pc-tab-content-image-1-16.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-17.png" alt="pc-tab-content-image-1-17.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-18.png" alt="pc-tab-content-image-1-18.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-19.png" alt="pc-tab-content-image-1-19.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-20.png" alt="pc-tab-content-image-1-20.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-21.png" alt="pc-tab-content-image-1-21.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-22.png" alt="pc-tab-content-image-1-22.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>纯粹态度</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="product_list_item">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-01.png" alt="pc-tab-content-image-1-01.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-02.png" alt="pc-tab-content-image-1-02.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-03.png" alt="pc-tab-content-image-1-03.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-04.png" alt="pc-tab-content-image-1-04.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-05.png" alt="pc-tab-content-image-1-05.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-06.png" alt="pc-tab-content-image-1-06.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-07.png" alt="pc-tab-content-image-1-07.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-08.png" alt="pc-tab-content-image-1-08.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-09.png" alt="pc-tab-content-image-1-09.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-10.png" alt="pc-tab-content-image-1-10.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-11.png" alt="pc-tab-content-image-1-11.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-12.png" alt="pc-tab-content-image-1-12.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-13.png" alt="pc-tab-content-image-1-13.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-14.png" alt="pc-tab-content-image-1-14.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-15.png" alt="pc-tab-content-image-1-15.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-16.png" alt="pc-tab-content-image-1-16.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-17.png" alt="pc-tab-content-image-1-17.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-18.png" alt="pc-tab-content-image-1-18.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-19.png" alt="pc-tab-content-image-1-19.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-20.png" alt="pc-tab-content-image-1-20.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-21.png" alt="pc-tab-content-image-1-21.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-22.png" alt="pc-tab-content-image-1-22.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>去突破去创造</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="product_list_item">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-01.png" alt="pc-tab-content-image-1-01.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-02.png" alt="pc-tab-content-image-1-02.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-03.png" alt="pc-tab-content-image-1-03.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-04.png" alt="pc-tab-content-image-1-04.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-05.png" alt="pc-tab-content-image-1-05.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-06.png" alt="pc-tab-content-image-1-06.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-07.png" alt="pc-tab-content-image-1-07.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-08.png" alt="pc-tab-content-image-1-08.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-09.png" alt="pc-tab-content-image-1-09.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-10.png" alt="pc-tab-content-image-1-10.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-11.png" alt="pc-tab-content-image-1-11.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-12.png" alt="pc-tab-content-image-1-12.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-13.png" alt="pc-tab-content-image-1-13.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-14.png" alt="pc-tab-content-image-1-14.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-15.png" alt="pc-tab-content-image-1-15.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-16.png" alt="pc-tab-content-image-1-16.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-17.png" alt="pc-tab-content-image-1-17.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-18.png" alt="pc-tab-content-image-1-18.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-19.png" alt="pc-tab-content-image-1-19.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-20.png" alt="pc-tab-content-image-1-20.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-21.png" alt="pc-tab-content-image-1-21.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-22.png" alt="pc-tab-content-image-1-22.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>金典风格</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="product_list_item">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-01.png" alt="pc-tab-content-image-1-01.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-02.png" alt="pc-tab-content-image-1-02.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-03.png" alt="pc-tab-content-image-1-03.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-04.png" alt="pc-tab-content-image-1-04.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-05.png" alt="pc-tab-content-image-1-05.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-06.png" alt="pc-tab-content-image-1-06.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-07.png" alt="pc-tab-content-image-1-07.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-08.png" alt="pc-tab-content-image-1-08.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-09.png" alt="pc-tab-content-image-1-09.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-10.png" alt="pc-tab-content-image-1-10.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-11.png" alt="pc-tab-content-image-1-11.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-12.png" alt="pc-tab-content-image-1-12.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-13.png" alt="pc-tab-content-image-1-13.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-14.png" alt="pc-tab-content-image-1-14.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-15.png" alt="pc-tab-content-image-1-15.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-16.png" alt="pc-tab-content-image-1-16.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-17.png" alt="pc-tab-content-image-1-17.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-18.png" alt="pc-tab-content-image-1-18.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-19.png" alt="pc-tab-content-image-1-19.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-20.png" alt="pc-tab-content-image-1-20.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-21.png" alt="pc-tab-content-image-1-21.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/newsDetails/pc-tab-content-image-1-22.png" alt="pc-tab-content-image-1-22.png">
+								<div class="product_list_item_desc">
+									<p><span class="l_desc">mi</span>EQT SUPPORT ADV</p>
+									<p>标志性的极简主义</p>
+								</div>
+								<div class="product_list_item_btn">
+									<p>miadidas &nbsp;定制</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="article">
+		<img src="images/newsDetails/miadidas-pc_02.jpg" alt="miadidas-pc_02.jpg">
+		<div id="article_main">
+			<div id="article_title">
+				<h2>找寻灵感</h2>
+				<p>无需赘言，表达自我</p>
+			</div>
+			<ul>
+				<li>
+					<img src="images/newsDetails/miadidas-pc_04.jpg" alt="">
+					<i class="mask"></i>
+					<a href="https://www.adidas.com.cn/basketball_customise_segment">
+						<span>MI BASKETBALL<span class="right-icon"></span></span>
+					</a>
+				</li>
+				<li>
+					<img src="images/newsDetails/miadidas-pc_05.jpg" alt="">
+					<i class="mask"></i>
+					<a href="https://www.adidas.com.cn/originals_customise_segment">
+						<span>MI ORIGINALS<span class="right-icon"></span></span>
+					</a>
+				</li>
+				<li>
+					<img src="images/newsDetails/miadidas-pc_06.jpg" alt="">
+					<i class="mask"></i>
+					<a href="https://www.adidas.com.cn/running_customise_segment">
+						<span>MI RUNNING<span class="right-icon"></span></span>
+					</a>
+				</li>
+			</ul>
+		</div>	
+	</section>
+	<section id="carousel">
+		<img src="images/newsDetails/miadidas-pc_03.jpg" alt="">
+		<div id="carousel_left">
+			<ul>
+				<li><img src="" alt="1"></li>
+				<li><img src="" alt="2"></li>
+			</ul>
+			<div id="carousel_select">
+				<ul>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div id="carousel_right">
+			<h2>MI STAN SMITH</h2>
+			<p>现有全新配色和材质可供定制选择。</p>
+			<div id="carousel_right_btn">
+				<a href="https://www.adidas.com.cn/originals_stansmith_customise">
+					<span>获取灵感<span class="right-icon2"></span></span>
+				</a>
+				<a href="http://www.adidas.com.cn/miadidas/4002576_M">
+					<span>立即创造<span class="right-icon"></span></span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section id="info">
+		<ul>
+			<li>
+				<img src="images/newsDetails/miadidas-pc_10.jpg" alt="">
+				<a href="https://www.adidas.com.cn/miadidasTC">
+					<span>更多信息<span class="right-icon"></span></span>
+				</a>
+			</li>
+			<li>
+				<img src="images/newsDetails/miadidas-pc_11.jpg" alt="wechatlogo" usemap="#link">
+				<map name="link" id="link">
+					<area shape="rect" coords="0,0,136,90" href="http://weibo.com/shopadidas" alt="新浪" target="_blank">
+					<area shape="rect" coords="170,0,300,100" href="#" alt="微信">
+				</map>
+				<span class="wechatcode">
+					<img src="images/newsDetails/wechat-img-2.jpg" alt="wechat">
+					<p>扫一扫，关注adidas官方微信</p>
+				</span>
+			</li>
+			<li>
+				<img src="images/newsDetails/miadidas-pc_12.jpg" alt="">
+				<a href="https://www.adidas.com.cn/location/storefinder">
+					<span>寻找工作坊<span class="right-icon"></span></span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<footer>
+			<div class="footer-top">
+				<ul>
+					<li>联系我们</li>
+					<li><span class="icon-liaotian"></span>&nbsp;&nbsp;<a href="">在线客服</a><p>(仅支持中文)</p></li>
+					<li><span class="icon-dianhua"></span>&nbsp;&nbsp;<span>400-999-5999</span><p>(仅支持中文)</p></li>
+					<li><span class="icon-youjian"></span>&nbsp;&nbsp;<span>service@adidas.com</span><p>(中英文均支持)</p></li>
+					<li><span class="icon-shijianzhongbiao"></span>&nbsp;&nbsp;<span>9:30-22:00</span></li>
+					<li><a href="">订单追踪</a></li>
+				</ul>
+			</div>
+			<div class="container2">
+				<div class="footer-middle">
+					<ul>
+						<h3>产品</h3>
+						<li><a href="">鞋类</a></li>
+						<li><a href="">服装</a></li>
+						<li><a href="">配件</a></li>
+						<li><a href="">新品上市</a></li>
+						<li><a href="">折扣专区</a></li>
+					</ul>
+					<ul>
+						<h3>运动</h3>
+						<li><a href="">跑步</a></li>
+						<li><a href="">训练</a></li>
+						<li><a href="">足球</a></li>
+						<li><a href="">篮球</a></li>
+						<li><a href="">户外</a></li>
+					</ul>
+					<ul>				
+						<h3>帮助中心</h3>
+						<li><a href="">尺码表</a></li>
+						<li><a href="">adiCLUB会员</a></li>
+						<li><a href="">门店查询</a></li>
+						<li><a href="">关于我们</a></li>
+						<li><a href="">企业社会责任</a></li>
+						<li><a href="">Confirmed app</a></li>
+					</ul>
+					<ul>					
+						<h3>网站政策</h3>
+						<li><a href="">使用条款</a></li>
+						<li><a href="">隐私声明</a></li>
+						<li><a href="">物流配送规则</a></li>
+						<li><a href="">退换货规则</a></li>
+						<li><a href="">定制和印制服务条款</a></li>
+						<li><a href="">adiCLUB会员规则</a></li>
+					</ul>
+					<ul>
+						<h3>关注我们</h3>
+						<span class="icon-weibo"></span>&nbsp;&nbsp;
+						<span class="icon-icon-"></span>
+						<img src="images/weixin.png" alt="" id="footer_weixin">					
+					</ul>
+					<ul class="footer-middle-bottom">
+						<li>我们接受下列付款方式：</li>
+						<span class="icon-zhifubao"></span>
+						<img src="images/weixinpay.png" alt="">
+						<img src="images/payment.png" alt="">
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container2">
+					<ul>
+						<li><a href=""><span class="icon-CHN"></span>  中国</a></li>
+						<li><a href="">隐私声明</a></li>
+						<li><a href="">使用条款</a></li>
+						<li><a href="">网站地图</a></li>
+					</ul>
+					<div id="police_info">
+						<span>苏ICP备14048805号-1 </span>
+						<a href=""><img src="images/guohui.png" alt=""></a>
+						<span>© 2017 adidas</span>
+						<a href=""><img src="images/gongan.png" alt=""></a>
+						<a href="">苏公网安备 32059002001401号</a>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<script src="js/common.js"></script>
+</body>
+</html>

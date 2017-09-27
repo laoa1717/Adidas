@@ -1,0 +1,187 @@
+a{
+	color:black;
+}
+.container{
+	width: 1000px;
+	height: 550px;
+	margin:0 auto;
+	margin-top: 100px;
+}
+.list-inline{
+	width: 100%;
+	height: 17px;
+}
+.list-inline ul{
+	width: 100%;
+	height: 17px;
+}
+.list-inline ul li{
+	float:left;
+	text-indent: 0.5em;
+	font-size: 14px;
+	font-weight: bold;
+}
+.list-inline ul li:first-child{
+	text-indent:0;
+}
+.all-step{
+	width: 1000px;
+	height: 34px;
+}
+.all-step ul{
+	width: 100%;
+	height: 100%;
+}
+.all-step ul li:first-child{
+	margin-top: 25px;
+	float:left;
+	width: 500px;
+	font-family: '微软雅黑';
+	text-indent:0.5em;
+	padding-bottom: 10px;
+	color:#C8CBCC;
+	border-bottom:2px solid rgb(2,134,205);
+}
+.all-step ul li.active{
+	color:rgb(2,134,205);
+}
+.all-step ul li span.active1{
+	background: rgb(2,134,205);
+}
+
+.all-step ul li span{
+	text-indent:0;
+	float:left;
+	display:block;
+	width: 20px;
+	height: 20px;
+	background: #C8CBCC;
+	color:white;
+	text-align:center;
+	border-radius:50%;
+	line-height:20px;
+}
+#timer{
+	color:red;
+	font-family: '微软雅黑';
+	text-indent:10em;
+}
+.register h4{
+	font-size: 24px;
+	line-height:20px;
+	padding:30px 0 20px;
+	border-bottom:1px dotted #EBEBEB;
+}
+.register h4 p{
+	line-height:50px;
+	font-size: 14px;
+	color:#888888;
+}
+.register .register-detial{
+	height: 270px;
+}
+.register .register-detial form{
+	width: 800px;
+	height: 250px;
+	float:left;
+}
+.register .register-detial form input{
+	width: 398px;
+	height: 40px;
+	color:#888888;
+	line-height:16px;
+	font-size: 14px;
+	text-indent:0.5em;
+	font-weight: bold;
+	border:1px solid #c8c8cc;
+	outline: none;
+	margin-bottom: 20px;
+}
+.register .register-detial form .appendP{
+	font-size: 14px;
+	color:rgb(255,109,109);
+	line-height:0px;
+	font-family: '微软雅黑';
+	text-indent:0.5em;
+}
+.register .register-detial form .appendSpan{
+	font-size: 14px;
+	font-family: '微软雅黑';
+	text-indent:0.5em;
+	color:green;
+}
+.register .register-detial form #wrong{
+	color:rgb(255,109,109);
+	font-size: 14px;
+	margin:0;
+}
+.register .register-detial form #right{
+	color:green;
+	font-size: 14px;
+	margin:0;
+}
+
+.register .register-detial form #get{
+	width: 118px;
+	height: 43px;
+	background: black;
+	float:left;
+}
+.register .register-detial form #get span{
+	width: 100%;
+	height: 100%;
+	color:white;
+	line-height:42px;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	display:block;
+	text-align:center;
+	cursor:pointer;
+}
+#top{
+	width: 50px;
+	height: 50px;
+	background: black;
+	position:fixed;
+	right:30px;
+	bottom:50px;
+	border-radius:50%;
+}
+#top span a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color:white;
+	font-size: 20px;
+	line-height:45px;
+	margin-left: 7px;
+	font-weight: bold;
+}
+a.input_btn{
+	display: block;
+	width: 300px;
+	padding-right: 40px;
+	height: 42px;
+	position: relative;
+	color:#fff;
+	font: 20px/42px '微软雅黑';
+	text-align: center;
+	background-color:#0286cd;
+	box-sizing: border-box;
+	transition: .5s;
+}
+a.input_btn>span{
+	display: block;
+	width: 17px;
+	height: 19px;
+	border-radius: 50%;
+	background: url('../images/register/right-icon.png') no-repeat;
+	position: absolute;
+	top:12px;
+	right:125px;
+	transition: .5s;
+}
+.register-detial>form span{
+	font: 16px '微软雅黑';
+	color: black;
+}

@@ -1,0 +1,764 @@
+html {
+  font-size: 100px;
+  width: 100%;
+}
+body {
+  font-size: 0.12rem;
+  background-color: #fff;
+}
+.mt100{
+  margin-top:200px;
+}
+#carousel-example-generic{
+  margin-top:2rem;
+}
+.item>img{
+  width: 100%;
+}
+.view {
+  position: relative;
+}
+.view .icon {
+  background-image: url('../images/Origunals/icon.png');
+  float: right;
+  display: block;
+}
+.view .icon-cart {
+  width: 18px;
+  height: 22px;
+  background-position: -304px -190px;
+}
+.view .icon-cart-hover {
+  width: 18px;
+  height: 22px;
+  background-position: 0px -19px;
+}
+.view .icon-tell {
+  width: 16px;
+  height: 16px;
+  background-position: -26px -86px;
+  position: relative;
+  top: 0.5rem;
+}
+.view .icon-user {
+  width: 17px;
+  height: 20px;
+  background-position: 0px -86px;
+  position: relative;
+  top: 0.5rem;
+}
+.view .icon-search {
+  width: 13px;
+  height: 16px;
+  background-position: -360px -19px;
+}
+.view .icon-sina {
+  width: 32px;
+  height: 25px;
+  background-position: -130px -154px;
+}
+.view .icon-weixin {
+  width: 32px;
+  height: 25px;
+  background-position: -269px -154px;
+}
+.view .icon-pay {
+  width: 283px;
+  height: 23px;
+  background-position: -616px -344px;
+}
+.view .icon-kefu {
+  width: 20px;
+  height: 16px;
+  background-position: -400px -85px;
+  position: relative;
+  top: 2.5rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+.view .icon-num {
+  width: 20px;
+  height: 17px;
+  background-position: -74px -87px;
+  position: relative;
+  top: 2.5rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+.view .icon-email {
+  width: 20px;
+  height: 16px;
+  background-position: -95px -84px;
+  position: relative;
+  top: 2.5rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+.view .icon-time {
+  width: 20px;
+  height: 16px;
+  background-position: 0px -112px;
+  position: relative;
+  top: 2.5rem;
+  float: left;
+  margin-right: 0.3rem;
+}
+.view .icon-guoqi {
+  width: 14px;
+  height: 11px;
+  background-position: -49px -190px;
+  float: left;
+  position: relative;
+  top: 1rem;
+  margin-right: 0.3rem;
+}
+.view .icon-guohui {
+  width: 15px;
+  height: 16px;
+  background-position: -23px -192px;
+  position: relative;
+  top: 0.95rem;
+  margin-right: 1.7rem;
+}
+.view .icon-wangbei {
+  width: 15px;
+  height: 16px;
+  float: left;
+  background-position: 0px -192px;
+  position: relative;
+  top: 0.95rem;
+  margin-right: 0.3rem;
+}
+.view .icon-left {
+  width: 48px;
+  height: 76px;
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 5rem;
+  transform: translateY(-50%);
+  background-position: -568px -50px;
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+.view .icon-left:hover {
+  background-position: 0px -452px;
+}
+.view .icon-right {
+  width: 48px;
+  height: 76px;
+  float: left;
+  position: absolute;
+  top: 50%;
+  right: 5rem;
+  transform: translateY(-50%);
+  background-position: -616px -50px;
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+.view .icon-right:hover {
+  background-position: -51px -452px;
+}
+.view .icon-star-yellow {
+  width: 5.2rem;
+  height: 0.8rem;
+  position:absolute;
+  left:50px;
+  bottom: 10px;
+  background-position: -358px -266px;
+}
+.view .header-fixed {
+  width: 100%;
+  height: 5.4rem;
+  background: #000;
+}
+.view .header-fixed .top-nav {
+  position: relative;
+  height: 2rem;
+}
+.view .header-fixed .top-nav ul {
+  width: 15rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.view .header-fixed .top-nav ul li {
+  height: 100%;
+  float: left;
+  color: #eee;
+  font-size: 0.6rem;
+  line-height: 2.4rem;
+  color: #ccc;
+  cursor: pointer;
+}
+.view .header-fixed .top-nav ul #meil {
+  width: 4.2rem;
+  color: #fff;
+}
+.view .header-fixed .top-nav ul #meil :hover,
+.view .header-fixed .top-nav ul #meil :focus {
+  color: #000;
+}
+.view .header-fixed .top-nav ul #meil a {
+  color: #fff;
+  marigin: 0;
+  padding: 0;
+  text-align: center;
+}
+.view .header-fixed .top-nav ul .tell {
+  width: 5.5rem;
+}
+.view .header-fixed .top-nav ul .login {
+  width: 4.2rem;
+  padding-left: 0.8rem;
+}
+.view .header-fixed .top-nav ul .login a{
+  color: #ccc;
+  text-decoration: none;
+  margin:0;
+  padding:0;
+}
+.view .header-fixed .top-nav ul .login a:hover{
+  background-color: #000;
+}
+.view .header-fixed header nav {
+  width: 100%;
+  height: 3.4rem;
+  background: #000;
+}
+.view .header-fixed header nav .container {
+  height: 100%;
+}
+.view .header-fixed header nav .container .navbar-header a img {
+  position: relative;
+  top: -3rem;
+  width: 8.5rem;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav .nav-menu-delimer {
+  position: relative;
+  top: 14px;
+  width: 30px;
+  height: 30px;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav .nav-menu-delimer span:after {
+  content: '';
+  width: 1px;
+  height: 70%;
+  border-right: 1px solid #666;
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  line-height: 20px;
+  text-align: center;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav .active a{
+  background-color: #fff;
+  color: #000;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li :hover {
+  background-color: #fff;
+  color: #000;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li a {
+  color: #ffe;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li ul {
+  display: none;
+  width: 100%;
+  height: 30rem;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li ul:hover{
+  display: block;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li:hover ul{
+  display: block;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li ul li{
+  float:left;
+}
+.view .header-fixed header nav .container #navbar .navbar-nav li ul li a{
+  color:#000;
+}
+
+.view .header-fixed header nav .container #navbar .header-right {
+  position: relative;
+  top: 0.5rem;
+  right: 0;
+}
+.view .header-fixed header nav .container #navbar .header-right li {
+  float: left;
+}
+.view .header-fixed header nav .container #navbar .header-right .header-search {
+  text-align: center;
+}
+.view .header-fixed header nav .container #navbar .header-right .header-search input {
+  width: 10rem;
+  height: 2.1rem;
+}
+.view .header-fixed header nav .container #navbar .header-right .header-cart {
+  position: relative;
+  top: -0.3rem;
+}
+
+.view .header-fixed header nav .container #navbar .header-right .header-cart a {
+  height: 40px;
+  padding-bottom: 0.5rem;
+}
+.view #s-menu{
+  display: none;
+  width: 100%;
+  height: 30rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+#s-menu a{
+  font-family: "微软雅黑";
+}
+.view #s-menu ul{
+  overflow: hidden;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: none;
+  position: relative;
+  z-index: 3;
+}
+#s-menu li dl a{
+  color:#222;
+  text-decoration: none;
+}
+#s-menu li dl a:hover{
+  font-size: 0.92rem;
+  color: #666;
+}
+#s-menu li dl dd{
+  line-height: 1.9rem;
+  font-size: 0.9rem;
+}
+#s-menu li dl dd:last-child{
+  position: absolute;
+  top:25rem;
+  border-top: 1px solid #ccc;
+}
+#s-menu li dl dt{
+  height: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #000;
+}
+#s-menu li dl dt a {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: center;
+}
+#s-menu ul:nth-child(n-3) li dl dt{
+  border-bottom:0;
+}
+#s-menu ul:nth-child(n-3) li dl dt a{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#s-menu #pinpai-menu dl dt{
+  border-bottom:0;
+}
+#s-menu #dinzhi-menu dl dt{
+  border-bottom:0;
+}
+#s-menu #dinzhi-menu li:last-child {
+  border-left: 1px solid #aaa;
+}
+#run-menu li dl dt a img{
+  float: left;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.bottomleft{
+  height: 100%;
+  float: left;
+}
+
+.view .banner .carousel-caption {
+  position: absolute;
+  bottom: 20%;left:28%;
+  height: 6rem;
+  width:  8rem;
+
+}
+.view .banner .carousel-caption div[class|="purchase"] {
+  height: 100%; margin-bottom: 0.7rem;
+}
+.view .banner .carousel-caption div[class|="purchase"] a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+.view .banner .carousel-caption div[class|="purchase"] a span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 2.7rem;
+  border-radius: 5px;
+}
+.view .banner .carousel-caption .purchase-1 {
+  bottom: 6rem;
+}
+.view .banner .carousel-caption .purchase-1 a span {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.view .banner .carousel-caption .purchase-2 {
+  margin-bottom: 0.5rem;
+}
+.view .banner .carousel-caption .purchase-2 a span {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.view .banner .carousel-caption .purchase-3 {
+  margin-bottom: 0.5rem;
+}
+.view .banner .carousel-caption .purchase-3 a span {
+  background-color: rgba(2, 134, 205, 0.8);
+  color: #fff;
+}
+.view .banner .carousel-caption .purchase-4 {
+  margin-bottom: 0.5rem;
+}
+.view .banner .carousel-caption .purchase-4 a span {
+  color: #fff;
+  background-color: rgba(2, 134, 205, 0.8);
+}
+.view .carousel-control {
+  width: 0;
+}
+.view .article-page {
+  width: 100%;
+  height: 54rem;
+}
+.view .article-page .sub-page {
+  padding-top: 2rem;
+}
+.view .article-page .sub-page .row {
+  width: 85%;
+  margin: auto;
+}
+.view .article-page .sub-page .row .page-item {
+  padding-right: 0;
+  padding-bottom: 2rem;
+}
+.view .article-page .sub-page .row .page-item .shadow {
+  display: block;
+  padding-bottom: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.view .article-page .sub-page .row .page-item .shadow h3 {
+  font-size: 1.3rem;
+}
+.view .article-page .sub-page .row .page-item .shadow p {
+  color: #0287CD;
+  font-size: 1.1rem;
+}
+.view .article-page .sub-page .row .page-item .shadow img {
+  width: 100%;
+  height: 100%;
+}
+.view .article-page .sub-page .row .page-item .shadow:hover {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.3);
+}
+.view .probanner {
+  width: 57.22%;
+  margin: 0 auto;
+  height: 29rem;
+}
+.view .probanner ol {
+  bottom: -2.5rem;
+}
+.view .probanner ol li {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: 0;
+}
+.view .probanner ol .active {
+  background-color: #007aff;
+}
+.view .probanner .carousel-inner .item img {
+  width: 100%;
+}
+.view .probanner .carousel-control span {
+  margin: 0 2rem;
+}
+.view .probanner .carousel-control span:hover {
+  color: #000;
+}
+.view .banner-box {
+  padding: 0;
+}
+.view .banner-box .guess-you-like-intro {
+  width: 100%;
+  position: relative;
+}
+.view .banner-box .guess-you-like-intro h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess {
+  width: 67%;
+  height: 26rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro {
+  height: 17rem;
+  width: auto;
+  position: relative;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro div {
+  position: absolute;
+  top: 1.5rem;
+  height: 17rem;
+  margin: 0 0.5rem;
+  width: 25%;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-1 {
+  left: 0px;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-2 {
+  left: 16rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-3 {
+  left: 32rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-4 {
+  left: 48rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-5 {
+  left: 64rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-6 {
+  left: 80rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-7 {
+  left: 96rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-8 {
+  left: 112rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-9 {
+  left: 128rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-10 {
+  left: 144rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-11 {
+  left: 160rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-12 {
+  left: 176rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-13 {
+  left: 192rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-14 {
+  left: 208rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-15 {
+  left: 224rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro .slide-16 {
+  left: 240rem;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro figure {
+  width: 95%;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro figure:hover {
+  box-shadow: 1px 2px 6px 0 rgba(163, 163, 163, 0.5);
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro div figcaption {
+  padding: 0.5rem 0.25rem 0.25rem;
+  position:relative;
+}
+.view .banner-box .guess-you-like-intro .con-guess .con-intro div p {
+  font-size: 0.6rem;
+  height: 1.6rem;
+  line-height: 0.8rem;
+  padding-right: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.view .banner-box .guess-you-like-intro .prev-button {
+  position: absolute;
+  left: 10rem;
+  top: 45%;
+  padding: 0;
+  margin: 0;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: url(../images/Origunals/icon.png);
+  background-position: -220px -54px;
+  border-radius: 50%;
+  border: none;
+}
+.view .banner-box .guess-you-like-intro .prev-button:hover {
+  background-position: -148px -53px;
+}
+.view .banner-box .guess-you-like-intro .next-button {
+  position: absolute;
+  right: 10rem;
+  top: 45%;
+  padding: 0;
+  margin: 0;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: url(../images/Origunals/icon.png);
+  background-position: -255px -54px;
+  border-radius: 50%;
+  border: none;
+}
+.view .banner-box .guess-you-like-intro .next-button:hover {
+  background-position: -184px -52px;
+}
+.view .banner-box .guess-you-like-intro .next-button.disabled {
+  background-position: -396px -50px;
+}
+.view .banner-box .guess-you-like-intro .prev-button.disabled {
+  background-position: -360px -50px;
+}
+.view .banner-box .guess-you-like-intro .footer-intro {
+  width: 70%;
+  margin: 0 auto;
+  height: 0.2rem;
+  margin-bottom: 2rem;
+}
+.view .banner-box .guess-you-like-intro .footer-intro ul {
+  width: 8%;
+  margin: 0 auto;
+  height: 0.2rem;
+}
+.view .banner-box .guess-you-like-intro .footer-intro li {
+  float: left;
+  width: 1rem;
+  margin-right: 0.25rem;
+  height: 0.2rem;
+  background: #C8CBCC;
+  /*border: 1px solid #000;*/
+}
+.view .banner-box .guess-you-like-intro .footer-intro li:hover {
+  background: #025F8E;
+}
+.view .banner-box .guess-you-like-intro .footer-intro li.active {
+  background: #000;
+}
+.view footer {
+  height: 25rem;
+}
+.view footer .ContactUs {
+  background-color: #000;
+  height: 6rem;
+}
+.view footer .ContactUs .left {
+  width: 80%;
+  height: 100%;
+}
+.view footer .ContactUs .left li {
+  color: #ffe;
+  width: 18%;
+  float: left;
+  height: 100%;
+  line-height: 6rem;
+  font-weight: bold;
+}
+.view footer .ContactUs .left li:first-child {
+  font-size: 1.1rem;
+}
+.view footer .ContactUs .left li:nth-child(4) {
+  width: 14rem;
+}
+.view footer .ContactUs .row ul {
+  float: right;
+}
+.view footer .ContactUs .row ul li {
+  color: #fff;
+  height: 100%;
+  line-height: 6rem;
+  font-size: 1.1rem;
+}
+.view footer .list ul {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.view footer .list ul li:first-child,
+.view footer .list ul li:first-child a {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000;
+}
+.view footer .list ul li {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.view footer .list ul a {
+  color: #000;
+}
+.view footer .list .aboutus li {
+  display: block;
+  width: 32px;
+  height: 25px;
+  float: left;
+  margin-right: 1rem;
+}
+
+.icon-icon-:before {
+  content: "\e659";
+  font-size: 32px;
+  cursor:pointer;
+}
+.icon-icon-:hover:before{
+  color:gray;
+}
+.view footer .pay {
+  margin-bottom: 4rem;
+}
+.view footer .pay span {
+  display: block;
+  float: left;
+}
+.view footer .pay i {
+  float: left;
+}
+.view footer .footerbottom {
+  height: 2.8rem;
+  background-color: #000;
+}
+.view footer .footerbottom ul li {
+  width: 5rem;
+  display: block;
+  float: left;
+  font-size: 0.7rem;
+  line-height: 2.8rem;
+}
+.view footer .footerbottom ul li a {
+  text-decoration: none;
+  color: #ccc;
+}
+.view footer .footerbottom .footer-right {
+  float: right;
+}
+.view footer .footerbottom .footer-right li {
+  width: 11rem;
+  color: #ccc;
+}
+.view footer .footerbottom .footer-right li:nth-child(2) {
+  width: 8rem;
+}
+.view footer .footerbottom .footer-right li:nth-child(3) {
+  width: 20rem;
+}

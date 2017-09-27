@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/common/common.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="stylesheet" href="./lib库/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="./lib库/jquery-2.1.4/jquery-2.1.4/dist/jquery.js"></script>
+    <script src="./js/shopping.js"></script>
+    <title>阿迪达斯购物车</title>
+</head>
+
+<body>
+    <header>
+        <section class="headerleft">
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+        </section>
+        <section class="headerright">
+            <section class="righttop">
+                <ul>
+                    <li><a href="">在线客服</a></li>
+                    <li><a href="">订单跟踪</a></li>
+                    <li>
+                        <a href="login.html">登录</a>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </section>
+            <section class="rightbottom">
+                <section class="bottomleft">
+                    <ul>
+                        <li><a href="man.html">男子</a>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">最新活动</a></dt>
+                                        <dd><a href="">新品上市</a></dd>
+                                        <dd><a href="">创作你的专属Adilette</a></dd>
+                                        <dd><a href=""> 跑步|UltraBOOST X</a></dd>
+                                        <dd><a href="">Originals|ICONS</a></dd>
+                                        <dd><a href="">adidas neo|生来好动</a></dd>
+                                        <dd><a href="">训练|由我创造</a></dd>
+                                        <dd><a href="">miadidas 个性化定制</a></dd>
+                                        <dd><a href="">折扣专区</a></dd>
+                                        <dd><a href="">全部男子产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">鞋类</a></dt>
+                                        <dd><a href="">Originals</a></dd>
+                                        <dd><a href="">adidas neo</a></dd>
+                                        <dd><a href="">足球</a></dd>
+                                        <dd><a href="">篮球</a></dd>
+                                        <dd><a href="">训练</a></dd>
+                                        <dd><a href="">跑步</a></dd>
+                                        <dd><a href="">户外</a></dd>
+                                        <dd><a href="">网球</a></dd>
+                                        <dd><a href="">全部男子鞋</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">服饰类</a></dt>
+                                        <dd><a href="">紧身裤</a></dd>
+                                        <dd><a href="">短袖上衣</a></dd>
+                                        <dd><a href="">长袖上衣</a></dd>
+                                        <dd><a href="">茄克/外套</a></dd>
+                                        <dd><a href="">下装</a></dd>
+                                        <dd><a href="">棉服/羽绒服</a></dd>
+                                        <dd><a href="">全部男子服饰</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">附配件类</a></dt>
+                                        <dd><a href="">袜子</a></dd>
+                                        <dd><a href="">帽子/手套/围巾</a></dd>
+                                        <dd><a href="">背包/拎包/肩包/电脑包</a></dd>
+                                        <dd><a href="">茄克/外套</a></dd>
+                                        <dd><a href="">手表</a></dd>
+                                        <dd><a href="">球类</a></dd>
+                                        <dd><a href="">全部男子配件</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">运动分类</a></dt>
+                                        <dd><a href="">足球</a></dd>
+                                        <dd><a href="">篮球</a></dd>
+                                        <dd><a href="">训练</a></dd>
+                                        <dd><a href="">跑步</a></dd>
+                                        <dd><a href="">户外</a></dd>
+                                        <dd><a href="">网球</a></dd>
+                                        <dd><a href="">游泳</a></dd>
+                                        <dd><a href="">高尔夫</a></dd>
+                                        <dd><a href="">全部男子运动</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">女子</a>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">最新活动</a></dt>
+                                        <dd><a href="">新品上市</a></dd>
+                                        <dd><a href="">创作你的专属Adilette</a></dd>
+                                        <dd><a href=""> 跑步|UltraBOOST X</a></dd>
+                                        <dd><a href="">Originals|ICONS</a></dd>
+                                        <dd><a href="">adidas neo|领取热巴福利</a></dd>
+                                        <dd><a href="">训练|由我创造</a></dd>
+                                        <dd><a href="">miadidas 个性化定制</a></dd>
+                                        <dd><a href="">折扣专区</a></dd>
+                                        <dd><a href="">全部女子产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">鞋类</a></dt>
+                                        <dd><a href="">Originals</a></dd>
+                                        <dd><a href="">adidas neo</a></dd>
+                                        <dd><a href="">训练</a></dd>
+                                        <dd><a href="">跑步</a></dd>
+                                        <dd><a href="">户外</a></dd>
+                                        <dd><a href="">网球</a></dd>
+                                        <dd><a href="">全部女子鞋</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">服饰类</a></dt>
+                                        <dd><a href="">紧身裤</a></dd>
+                                        <dd><a href="">运动胸衣</a></dd>
+                                        <dd><a href="">短袖上衣</a></dd>
+                                        <dd><a href="">长袖上衣</a></dd>
+                                        <dd><a href="">茄克/外套</a></dd>
+                                        <dd><a href="">短裙/连衣裙</a></dd>
+                                        <dd><a href="">下装</a></dd>
+                                        <dd><a href="">棉服/羽绒服</a></dd>
+                                        <dd><a href="">泳衣/泳裤</a></dd>
+                                        <dd><a href="">全部女子服饰</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">附配件类</a></dt>
+                                        <dd><a href="">袜子</a></dd>
+                                        <dd><a href="">帽子/手套/围巾</a></dd>
+                                        <dd><a href="">背包/拎包/肩包/电脑包</a></dd>
+                                        <dd><a href="">茄克/外套</a></dd>
+                                        <dd><a href="">手表</a></dd>
+                                        <dd><a href="">全部女子配件</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">运动分类</a></dt>
+                                        <dd><a href="">足球</a></dd>
+                                        <dd><a href="">训练</a></dd>
+                                        <dd><a href="">跑步</a></dd>
+                                        <dd><a href="">户外</a></dd>
+                                        <dd><a href="">网球</a></dd>
+                                        <dd><a href="">游泳</a></dd>
+                                        <dd><a href="">高尔夫</a></dd>
+                                        <dd><a href="">全部女子运动</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="babyProducts.html">童装</a>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">最新活动</a></dt>
+                                        <dd><a href="">新品上市</a></dd>
+                                        <dd><a href="">运动表现</a></dd>
+                                        <dd><a href="">Originals</a></dd>
+                                        <dd><a href="">全部婴童产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">大童（8-12岁）</a></dt>
+                                        <dd><a href="">男大童：鞋类</a></dd>
+                                        <dd><a href="">女大童：鞋类</a></dd>
+                                        <dd><a href="">男大童：服装</a></dd>
+                                        <dd><a href="">女大童：服装</a></dd>
+                                        <dd><a href="">全部大童（8-12岁）产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">小童（4-8岁）</a></dt>
+                                        <dd><a href="">男小童：鞋类</a></dd>
+                                        <dd><a href="">女小童：鞋类</a></dd>
+                                        <dd><a href="">男小童：服装</a></dd>
+                                        <dd><a href="">女小童：服装</a></dd>
+                                        <dd><a href="">箱包附配件</a></dd>
+                                        <dd><a href="">全部小童（4-8岁）产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">婴幼儿</a></dt>
+                                        <dd><a href="">男婴童：鞋类</a></dd>
+                                        <dd><a href="">女婴童：鞋类</a></dd>
+                                        <dd><a href="">男婴童：服装</a></dd>
+                                        <dd><a href="">女婴童：服装</a></dd>
+                                        <dd><a href="">箱包附配件</a></dd>
+                                        <dd><a href="">全部小童配件</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>
+                        <span class="headDivid">|</span>
+                        <li><a href="football.html">运动</a>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/adidas.jpg" alt="">跑步</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/sports1.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">跑步鞋</a></dd>
+                                        <dd><a href="">跑步服饰</a></dd>
+                                        <dd><a href="">UltraBOOST</a></dd>
+                                        <dd><a href="">PureBOOST</a></dd>
+                                        <dd><a href="">Alpha Bounce</a></dd>
+                                        <dd><a href="">全部跑步产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/adidas.jpg" alt="">训练</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/sports2.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">训练鞋</a></dd>
+                                        <dd><a href="">训练鞋服装</a></dd>
+                                        <dd><a href="">运动装备</a></dd>
+                                        <dd><a href="">adidas X Wanderlust</a></dd>
+                                        <dd><a href="">运动胸衣/紧身裤</a></dd>
+                                        <dd><a href="">全部训练产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="football.html"><img src="./images/adidas.jpg" alt="">足球</a></dt>
+                                        <div>
+                                            <a href="football.html"><img src="./images/sports3.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href="football.html"></a>
+                                        </dd>
+                                        <dd><a href="football.html">足球鞋</a></dd>
+                                        <dd><a href="football.html">足球服装</a></dd>
+                                        <dd><a href="football.html">运动装备</a></dd>
+                                        <dd><a href="football.html">全部足球产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/adidas.jpg" alt="">篮球</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/sports4.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">篮球鞋</a></dd>
+                                        <dd><a href="">篮球服装</a></dd>
+                                        <dd><a href="">James Harden</a></dd>
+                                        <dd><a href="">全部篮球产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/adidas.jpg" alt="">户外</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/sports5.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">户外鞋</a></dd>
+                                        <dd><a href="">户外服饰</a></dd>
+                                        <dd><a href="">运动装备</a></dd>
+                                        <dd><a href="">户外多功能运动</a></dd>
+                                        <dd><a href="">户外徒步系列</a></dd>
+                                        <dd><a href="">全部户外产品</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="Origunals.html">品牌</a>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt><a href="Origunals/Origunals.html"><img src="./images/pinpai1.png" alt=""></a></dt>
+                                        <div>
+                                            <a href="Origunals/Origunals.html"><img src="./images/pinpai11.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href="Origunals/Origunals.html"></a>
+                                        </dd>
+                                        <dd><a href="Origunals/Origunals.html">鞋类</a></dd>
+                                        <dd><a href="Origunals/Origunals.html">服装</a></dd>
+                                        <dd><a href="Origunals/Origunals.html">附配件</a></dd>
+                                        <dd><a href="Origunals/Origunals.html">CRAZY ADV</a></dd>
+                                        <dd><a href="Origunals/Origunals.html">SWIFT</a></dd>
+                                        <dd><a href="Origunals/Origunals.html">全部adidas Originals系列</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/pinpai2.png" alt="">训练</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/pinpai22.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">男子服饰</a></dd>
+                                        <dd><a href="">女子服饰</a></dd>
+                                        <dd><a href="">新品上市</a></dd>
+                                        <dd><a href="">Z.N.E</a></dd>
+                                        <dd><a href="">武极</a></dd>
+                                        <dd><a href="">全部adidas athletics系列</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/pinpai3.png" alt="">足球</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/pinpai33.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">鞋类</a></dd>
+                                        <dd><a href="">服装</a></dd>
+                                        <dd><a href="">附配件</a></dd>
+                                        <dd><a href="">全部adidas neo系列</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/pinpai4.png" alt="">篮球</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/pinpai44.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">鞋类</a></dd>
+                                        <dd><a href="">服装</a></dd>
+                                        <dd><a href="">PureBOOST</a></dd>
+                                        <dd><a href="">全部adidas neo系列</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">精选系列</a></dt>
+                                        <dd><a href="">CRAZY ADV</a></dd>
+                                        <dd><a href="">EQT</a></dd>
+                                        <dd><a href="">SWIFT</a></dd>
+                                        <dd><a href="">STAN PHARRELL</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>
+                        <span class="headDivid">|</span>
+                        <li><a href="newsDetails.html">新闻详情页</a>
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/dingzhi1.jpg" alt=""></a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/dingzhi11.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">Swift Runner</a></dd>
+                                        <dd><a href="">Stan Smith</a></dd>
+                                        <dd><a href="">EQT</a></dd>
+                                        <dd><a href="">Superstar</a></dd>
+                                        <dd><a href="">Spezial</a></dd>
+                                        <dd><a href="">全部originals定制产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/dingzhi2.jpg" alt="">训练</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/dingzhi22.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">Pure Boost</a></dd>
+                                        <dd><a href="">Adizero Adios</a></dd>
+                                        <dd><a href="">Energy Cloud</a></dd>
+                                        <dd><a href="">Z.N.E</a></dd>
+                                        <dd><a href="">Supernova</a></dd>
+                                        <dd><a href="">全部跑步定制产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href=""><img src="./images/dingzhi3.jpg" alt="">足球</a></dt>
+                                        <div>
+                                            <a href=""><img src="./images/dingzhi33.jpg" alt=""></a>
+                                        </div>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">Dame 3</a></dd>
+                                        <dd><a href="">D Rose 7</a></dd>
+                                        <dd><a href="">Crazy Explosive</a></dd>
+                                        <dd><a href="">全部篮球定制产品</a></dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt><a href="">其他</a></dt>
+                                        <dd>
+                                            <a href=""><img src="./images/other.gif" alt=""></dd>
+                                        <dd>
+                                            <a href=""></a>
+                                        </dd>
+                                        <dd><a href="">Explore miadidas</a></dd>
+                                        <dd><a href="">Flip Flops</a></dd>
+                                        <dd><a href="">所有男子定制产品</a></dd>
+                                        <dd><a href="">所有女子定制产品</a></dd>
+                                        <dd><a href="">男子个性印制产品</a></dd>
+                                        <dd><a href="">女子个性印制产品</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="bottommiddle">
+                    <pre>
+      根据国家最新规定,如您需要开具公司抬头的发票, 
+      请务必备注税号信息,未提供公司税号的订单将无法开具发票.
+                    </pre>
+                </section>
+                <section class="bottomright">
+                    <section class="searchinput">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" id="header_search" value="搜索">
+                        <a href="shopping.html"><img src="./images/bag.png" alt="" id="shopping_icon"></a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </header>
+    <div class="contain">
+        <ul class="information">
+            <li>
+                <img src="./images/shopping/icon.ul.png" alt="">
+                <a href="http://">全场满500元免费配送</a>
+                <i class="fa fa-2x fa-sign-out" aria-hidden="true"></i>
+            </li>
+            <li>
+                <img src="./images/shopping/icon_timer.png" alt="">
+                <a href="http://">尊享当日/次日达服务</a>
+                <i class="fa fa-2x fa-sign-out" aria-hidden="true"></i>
+            </li>
+            <li>
+                <img src="./images/shopping/icon_returnorder.png" alt="">
+                <a href="register.html">注册会员支持货到付款</a>
+                <i class="fa fa-2x fa-sign-out" aria-hidden="true"></i>
+            </li>
+        </ul>
+        <div class="banner">
+            <img src="./images/shopping/banner.jpg" alt="">
+        </div>
+        <div class="breakcrumb">
+            <ul>
+                <li><a href="http://">首页 |</a> </li>
+                <li><a href="http://">男子 |</a> </li>
+                <li><a href="http://">鞋类 |</a> </li>
+                <li><a href="http://">篮球</a> </li>
+            </ul>
+        </div>
+        <div class="article">
+            <div class="list">
+                <div class="select-filters">
+                    <div class="choose">
+                        <h2>您的选择</h2>
+                        <a href="">重置筛选</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <h2 style="font-weight:normal; margin-top:10px;">&nbsp&nbsp&nbsp 运动类型：户外</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h2 style="font-weight:normal; margin-top:10px;">&nbsp&nbsp&nbsp 产品系列：ZNE</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h2 style="font-weight:normal; margin-top:10px;">&nbsp&nbsp&nbsp 适应人群：青少年</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" same-width choose-filters">
+                    <h2 class="same-layout same-border">筛选条件</h2>
+                </div>
+                <div class=" same-width filters-sex">
+                    <h2 class="same-layout">性别</h2>
+                    <h2><i class=" same-i fa fa-check" aria-hidden="true"></i>&nbsp &nbsp男子</h2>
+                    <h2><i class=" same-i fa fa-check" aria-hidden="true"></i>&nbsp &nbsp篮球</h2>
+                </div>
+                <div class="same-width filters-product">
+                    <h2 class="same-layout same-border">产品分类</h2>
+                    <h2 style="font-weight:normal;margin-bottom:8px;">&nbsp &nbsp鞋类</h2>
+                    <h2 style="font-weight:normal;">&nbsp &nbsp服装</h2>
+                </div>
+                <div class="same-width filters-size">
+                    <h2 class="same-layout">尺码</h2>
+                    <div class="size-num">
+                        <a href="">37</a>
+                        <a href="">38</a>
+                        <a href="">39</a>
+                        <a href="">40</a>
+                        <a href="">41</a>
+                        <a href="">42</a>
+                        <a href="">43</a>
+                        <a href="">44</a>
+                        <a href="">45</a>
+                    </div>
+
+                </div>
+                <div class="person-design">
+                    <h2 style="margin-top:20px;" class="same-layout">个性定制 &nbsp<i class=" fa fa-puzzle-piece" aria-hidden="true"></i></h2>
+                </div>
+            </div>
+            <div class="products">
+                <div class="pagesize">
+                    <a href="javascript:;" class="btn1">
+                        <span>请选择排序方式</span>
+
+                        <span class="level">
+                        <i style="display:none;" class="fa fa-level-up" aria-hidden="true"></i>
+                        <i class="fa fa-level-down" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                    <div class="page-num">
+                        <span class="label">显示</span>
+                        <span class="num-now">1</span>
+                        <span>|</span>
+                        <span class="num-all">10</span>
+                    </div>
+                    <div class="page-event">
+                        <span class="paging">
+                            页数
+                        </span>
+                        <input value="1" type="number" max="20">
+                    </div>
+                </div>
+                <div class="btn1-option">
+                    <ul>
+                        <li>价格从高到低</li>
+                        <li>价格从低到高</li>
+                    </ul>
+                </div>
+                <div class="products-img">
+                    <div class="item">
+                        <div class="icon"></div>
+                        <img src="./images/shopping/shoe1.jpg" alt="">
+                        <div class="goods-color"></div>
+                        <div class="goods-title">
+                            <span>巨丑系列之gay鞋</span> <br>
+                            <span class="subtitle">gay 运动表现 丑</span>
+                        </div>
+                        <div class="bottom">
+                            <b>￥</b>
+                            <span>1299</span>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="icon"></div>
+                        <img src="./images/shopping/shoe3.jpg" alt="">
+                        <div class="color-items">
+                            <div class="img-item same-item item1"></div>
+                            <div class="img-item same-item item2"></div>
+                        </div>
+                        <div class="goods-color">
+                            <span>2种颜色</span>
+                            <span>miadidas定制</span>
+                        </div>
+                        <div class="goods-title">
+                            <span>RUNTHEGAME篮球鞋</span> <br>
+                            <span class="subtitle">gay 运动表现 丑</span>
+                        </div>
+                        <div class="bottom">
+                            <b>￥</b>
+                            <span>1099</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon"></div>
+                        <img src="./images/shopping/shoe6.jpg" alt="">
+                        <div class="goods-color"></div>
+                        <div class="goods-title">
+                            <span>场下款篮球鞋</span> <br>
+                            <span class="subtitle">gay 运动表现 丑</span>
+                        </div>
+                        <div class="bottom">
+                            <b>￥</b>
+                            <span>1699</span>
+                        </div>
+
+                    </div>
+                    <div class="item sort-1 banner-module">
+                        <div class="icon"></div>
+                        <img src="./images/shopping/shoebanner.jpg" alt="">
+                        <div class="color-items banner-parent">
+                            <span style="height:44px; width:20px;line-height:44px;font-size:1.5rem" class="left">
+                                        &lt
+                            </span>
+                            <div class="banner-items">
+                                <ul>
+                                    <li class="img-item same-item item3"></li>
+                                    <li class="img-item same-item item4"></li>
+                                    <li class="img-item same-item item5"></li>
+                                </ul>
+                            </div>
+                            <span style="height:44px; width:20px;line-height:44px;font-size:1.5rem" class="right">
+                                    &gt
+                                </span>
+                        </div>
+                        <div class="goods-color">
+                            <span>3种颜色</span>
+                            <span>miadidas定制</span>
+                        </div>
+                        <div class="goods-title">
+                            <span>VS-set篮球鞋</span> <br>
+                            <span class="subtitle">gay 运动表现 丑</span>
+                        </div>
+                        <div class="bottom">
+                            <b>￥</b>
+                            <span class="goods-price">1599</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" boxshadow shoping-cart">
+                    <div class="goods-img">
+                        <img class="shoping-img" src="" alt="">
+                        <span class="shoping-explain"></span>
+                    </div>
+                    <div class="goods-num">
+                        <span>商品数量：</span>
+                        <div>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <input class="show-num" value="1" style="width:24px" type="text">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="goods-money">
+                        <span>商品总价：</span>
+                        <div class="money-all">
+
+                            <span></span>
+
+                        </div>
+                    </div>
+                    <div class="goods-explain">
+                        <p>价格说明：上文显示的划线价格系该商品的建议零售价 <br>（而非法律意义上的原价），仅供您参考。</p>
+                    </div>
+                    <button id="clearing">加入购物袋 &nbsp<i class="fa fa-hand-peace-o" aria-hidden="true"></i></button>
+                    <div class="over-shoping">
+                        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                        <span>加入购物车成功!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <ul>
+                <li>联系我们</li>
+                <li><span class="icon-liaotian"></span>&nbsp;&nbsp;<a href="">在线客服</a>
+                    <p>(仅支持中文)</p>
+                </li>
+                <li><span class="icon-dianhua"></span>&nbsp;&nbsp;<span>400-999-5999</span>
+                    <p>(仅支持中文)</p>
+                </li>
+                <li><span class="icon-youjian"></span>&nbsp;&nbsp;<span>service@adidas.com</span>
+                    <p>(中英文均支持)</p>
+                </li>
+                <li><span class="icon-shijianzhongbiao"></span>&nbsp;&nbsp;<span>9:30-22:00</span></li>
+                <li><a href="">订单追踪</a></li>
+            </ul>
+        </div>
+        <div class="container2">
+            <div class="footer-middle">
+                <ul>
+                    <h3>产品</h3>
+                    <li><a href="">鞋类</a></li>
+                    <li><a href="">服装</a></li>
+                    <li><a href="">配件</a></li>
+                    <li><a href="">新品上市</a></li>
+                    <li><a href="">折扣专区</a></li>
+                </ul>
+                <ul>
+                    <h3>运动</h3>
+                    <li><a href="">跑步</a></li>
+                    <li><a href="">训练</a></li>
+                    <li><a href="">足球</a></li>
+                    <li><a href="">篮球</a></li>
+                    <li><a href="">户外</a></li>
+                </ul>
+                <ul>
+                    <h3>帮助中心</h3>
+                    <li><a href="">尺码表</a></li>
+                    <li><a href="">adiCLUB会员</a></li>
+                    <li><a href="">门店查询</a></li>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">企业社会责任</a></li>
+                    <li><a href="">Confirmed app</a></li>
+                </ul>
+                <ul>
+                    <h3>网站政策</h3>
+                    <li><a href="">使用条款</a></li>
+                    <li><a href="">隐私声明</a></li>
+                    <li><a href="">物流配送规则</a></li>
+                    <li><a href="">退换货规则</a></li>
+                    <li><a href="">定制和印制服务条款</a></li>
+                    <li><a href="">adiCLUB会员规则</a></li>
+                </ul>
+                <ul>
+                    <h3>关注我们</h3>
+                    <span class="icon-weibo"></span>&nbsp;&nbsp;
+                    <span class="icon-icon-"></span>
+                    <img src="./images/weixin.png" alt="" id="footer_weixin">
+                </ul>
+                <ul class="footer-middle-bottom">
+                    <li>我们接受下列付款方式：</li>
+                    <span class="icon-zhifubao"></span>
+                    <img src="./images/weixinpay.png" alt="">
+                    <img src="./images/payment.png" alt="">
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container2">
+                <ul>
+                    <li><a href=""><span class="icon-CHN"></span>  中国</a></li>
+                    <li><a href="">隐私声明</a></li>
+                    <li><a href="">使用条款</a></li>
+                    <li><a href="">网站地图</a></li>
+                </ul>
+                <div id="police_info">
+                    <span>苏ICP备14048805号-1 </span>
+                    <a href=""><img src="./images/guohui.png" alt=""></a>
+                    <span>© 2017 adidas</span>
+                    <a href=""><img src="./images/gongan.png" alt=""></a>
+                    <a href="">苏公网安备 32059002001401号</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./js/common.js"></script>
+</html>

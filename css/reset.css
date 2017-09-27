@@ -1,0 +1,28 @@
+html,
+body {
+  font-size: 15px;
+  font-family: "arial", "微软雅黑";
+}
+html,
+body,
+ul,
+a,
+img,
+p,
+input,
+nav {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  vertical-align: top;
+}
+ul,
+ol,
+nav {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

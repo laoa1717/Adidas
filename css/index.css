@@ -1,0 +1,364 @@
+.banner {
+    width: 100%;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.slider {
+    width: 100%;
+    height: 440px;
+
+}
+.slider-main {
+    width: 100%;
+    height: 440px;
+}
+.slider-main-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 440px;
+}
+.slider-main-img img {
+    width: 100%;
+    height: 100%;
+}
+.slider-ctrl {
+    text-align: center;
+    padding-top: 5px;
+}
+.slider-ctrl-con {
+    width: 2.5%;
+    height: 7px;
+    display:inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    text-indent: -20em;
+    overflow: hidden;
+    background: rgb(200,203,204);
+    position:absolute;
+    bottom:38px;
+    left:44%;
+    z-index:3;
+}
+.slider-ctrl-con:hover{
+	background: rgb(2,95,142);
+}
+.slider-ctrl-con:nth-of-type(2){
+	left:47%;
+}
+.slider-ctrl-con:nth-of-type(3){
+	left:50%;
+}
+.slider-ctrl-con:nth-of-type(4){
+	left:53%;
+}
+.current {
+	background:black;
+    background-position: -24px -762px;
+}
+.slider-ctrl-prev,
+.slider-ctrl-next {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    font-size:100px;
+    color:white;
+    font-weight: bold;
+}
+.slider-ctrl-prev:hover,
+.slider-ctrl-next:hover{
+	color:black;
+}
+.slider-ctrl-prev {
+    left: 12%;
+}
+.slider-ctrl-next {
+    right: 12%;
+}
+.conbg{
+	width: 15%;
+	height: 25px;
+	border-radius:20px;
+	background:black;
+	opacity: 0.6;
+	position:absolute;
+	bottom:30px;
+	left:43%;
+}
+.banner ul{
+	height: 106px;
+	width: 145px;
+	position:absolute;
+	bottom:40px;
+	right:20%;
+}
+.option3{
+	bottom:20px;
+	left:20%;
+}
+.option4{
+	bottom:100px;
+	left:20%;
+}
+.banner ul li{
+	height: 48px;
+	width: 145px;
+	margin-top: 10px;
+	float:left;
+	font-size: 18px;
+	line-height:48px;
+	background: rgba(255,255,255,.8);
+	text-align:center;
+	font-family: '微软雅黑';
+	cursor:pointer;
+	position:relative;
+}
+
+.banner ul li:hover{
+	background: rgb(255,255,255);
+
+}
+.banner ul .li2{
+	background: rgba(155,155,155,.8)
+}
+.banner ul .li2:hover{
+	background: rgb(155,155,155)
+}
+.banner ul .li4{
+	background: rgba(205,142,34,.8)
+}
+.banner ul .li4:hover{
+	background: rgb(205,142,34)
+}
+.banner ul li img{
+	width: 15px;
+	height: 15px;
+	position:absolute;
+	top:17px;
+	transition:all 0.5s ;
+}
+.banner ul li:hover img{
+	transform:translateX(8px);
+}
+.container{
+	margin:0 auto;
+	width: 950px;
+	height: 750px;
+	margin-top: 25px;
+}
+.product>div{
+	width: 950px;
+	height: 350px;
+}
+.product>div>div{
+	position:relative;
+}
+.product>div>div:after{
+	width: 470px;
+	height: 377px;
+	content:"";
+	background: url('../images/index/adidasbg.jpg'); 
+	background-size: 470px 264px;
+	background-repeat:no-repeat;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	transform:translateX(-300%);
+	transition:all 1s;
+}
+.product>div>div:nth-of-type(2):after,.product>div>div:nth-of-type(4):after{
+	transform:translateY(-500%);
+}
+.product>div>div:hover:after{
+	transform:translate(0);
+}
+
+.product p{
+	font-size: 18px;
+	line-height:16px;
+	font-weight: bold;
+	font-family: '微软雅黑';
+	text-align:center;
+}
+.product span{
+	font-size: 16px;
+	color:#0287CD;
+	line-height:18px;
+	font-family: '微软雅黑';
+	margin-left: 43%;
+}
+.product .producttop div,.product .productbottom div{
+	float:left;
+	cursor:pointer;
+	transition:all 0.8s;
+}
+.product .producttop div:hover,.product .productbottom div:hover{
+	box-shadow:3px 3px 10px rgb(159,159,159);
+}
+.product .producttop div:nth-of-type(2),.product .productbottom div:nth-of-type(2){
+	margin-left: 10px;
+}
+.product .productbottom {
+	margin-top: 25px;
+}
+.main{
+	height: 440px;
+}
+.main h2{
+	font-size: 30px;
+	line-height:30px;
+	text-align:center;
+	font-family: '微软雅黑';
+	font-weight: 500;
+}
+.mainpush{
+	width: 100%;
+	height: 320px;
+	position:relative;
+}
+.mainpush>div{
+	width: 100%;
+	height: 320px;
+}
+.mainpush div div{
+	float:left;
+	margin-left: 10px;
+	width: 230px;
+	height: 320px;
+	transition:all 0.8s;
+	cursor:pointer;
+	position:relative;
+	transition:all 1s;
+}
+.mainpush div div:hover{
+	box-shadow:3px 3px 10px rgb(159,159,159);
+	transform:rotate(360deg);
+}
+.mainpush>div>div>img:nth-of-type(2){
+	position:absolute;
+	bottom:25px;
+	right:10%;
+}
+.mainpush div div:first-child{
+	margin-left: 0;
+}
+.mainpush div div div{
+	width: 46px;
+	height: 20px;
+	background: rgb(86,167,108);
+	position:absolute;
+	left:-4%;
+	top:10%;
+}
+.mainpush div div div span:first-of-type{
+	font-family: '微软雅黑';
+	font-size: 13px;
+	line-height:20px;
+	color:white;
+	display:block;
+	position:absolute;
+	top:45%;
+	left:12%;
+    transform:translateY(-50%);
+}
+.mainpush>div>div>span:first-of-type:hover{
+	color:rgb(2,95,142);
+}
+.mainpush>div>div span:nth-of-type(1){
+	font-family: '微软雅黑';
+	font-size: 12px;
+	line-height:16px;
+}
+.mainpush>div>div span:nth-of-type(2){
+	font-family: '微软雅黑';
+	font-size: 15px;
+	line-height:16px;
+	display:block;
+	margin-top: 30px;
+}
+.mainpush>div .fasion{
+	width: 70px;
+	height: 20px;
+	position:absolute;
+	left:-4%;
+	top:10%;
+	background:rgb(2,134,205);
+}
+.hidden{
+	display:none;
+}
+.show{
+	display:block;
+}
+#mainleft,#mainright{
+	width: 25px;
+	height: 25px;
+	background: rgb(250,250,250);
+	position:absolute;
+	top:30%;
+	left:0;
+	z-index:9999;
+}
+#mainright{
+	left:97.4%;
+}
+#mainleft span,#mainright span{
+	font-size: 25px;
+	display:block;
+	width: 25px;
+	height: 25px;
+	text-align:center;
+	cursor:pointer;
+	font-weight: bold;
+}
+#mainleft:hover,#mainright:hover{
+	background:rgb(2,95,142) ;
+	color:white;
+}
+.main-slider{
+	display:block;
+	width: 20px;
+	height: 4px;
+	background: rgb(200,203,204);
+	position:absolute;
+	cursor:pointer;
+}
+.main-slider:hover{
+	background: rgb(2,95,142);
+}
+#slider1{
+	bottom:-7%;
+	left:45%;
+}
+#slider2{
+	bottom:-7%;
+	left:48%;
+}
+.change{
+	background: #000;
+}
+
+#backTop{
+	display:block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: black;
+	font:bold 40px/60px '微软雅黑';
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	right:100px;
+	// top:100px;
+	cursor: pointer;
+}
+
+
+
+
+
+
